@@ -1,0 +1,26 @@
+/**
+ * Function Declaration
+ * function indentifier (ParamaterList opt){FunctionBody}
+ * 
+ * Contoh:
+ * funntion tampilPesan (nama){
+ *      alert ('halo'+nama);
+ * }
+ * 
+ * Function Expresion
+ * function identifier opt (ParameterList opt){FunctionBody}
+ * 
+ * Contoh:
+ * 
+ * var tampilPesan = function (nama) {
+ *      alert ('halo' + nama);
+ * }
+ * 
+ * function jenis ini memiliki sifat sebagi berikut
+ * 1. Harus di definisikan terlebih dahulu sebelum dipanggil
+ * 2. Lebih powerfull
+ *      a. Sebagai closure
+ *      b. Sebagai argument untuk function lain
+ *      c. IIFE (Immedietly Invoked function Expression)
+ * 
+ */
